@@ -1,7 +1,7 @@
 import { View, Text, FlatList } from "react-native";
 import { Stack } from "expo-router";
 import { useLocalSearchParams } from "expo-router";
-import { useUserData } from "@/hooks/useUserData";
+import { useUserData } from "@/hooks/api/useUserData";
 import LoadingScreen from "@/components/screens/LoadingScreen";
 import RunCard from "@/components/RunCard";
 import { Image } from "expo-image";

@@ -4,7 +4,7 @@ import LoadingScreen from "@/components/screens/LoadingScreen";
 import HeaderLBRight from "@/components/ui/HeaderLBRight";
 import { lbIdToName } from "@/lib/utils/frontendConverters";
 import { LeaderboardType } from "@/components/ui/HeaderLBRight/options";
-import { useLeaderboardData } from "@/hooks/useLeaderboardData";
+import { useLeaderboardData } from "@/hooks/api/useLeaderboardData";
 import { FlatList, Text, View } from "react-native";
 import { Tabs, useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useState } from "react";

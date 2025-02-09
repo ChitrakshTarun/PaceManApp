@@ -1,7 +1,7 @@
 import TwitchButton from "@/components/TwitchButton";
 import { Image } from "expo-image";
 import { useRouter } from "expo-router";
-import { useLiverunsData } from "@/hooks/useLiverunsData";
+import { useLiverunsData } from "@/hooks/api/useLiverunsData";
 import { forwardRef, useMemo } from "react";
 import { useBottomTabBarHeight } from "react-native-bottom-tabs";
 import { View, Text, TouchableOpacity } from "react-native";
